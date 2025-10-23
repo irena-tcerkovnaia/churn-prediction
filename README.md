@@ -35,17 +35,17 @@ This project applies multiple models — from logistic regression to advanced gr
 
 ---
 
-## Project Structure
+### 📂 Project Structure
 
-churn-prediction/
-├── data/ # Sample dataset (no confidential data)
-├── notebooks/ # Jupyter notebooks for EDA and modeling
-├── src/ # Python scripts for modular code
-│ ├── EDA_functions.py
-│ ├── Model_functions.py
-│ └── Evaluation_Metrics.py
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
+| Path | Description |
+|------|--------------|
+| `data/` | Sample dataset (no confidential data) |
+| `notebooks/` | Jupyter notebooks for EDA and modeling |
+| `src/EDA_functions.py` | Functions for exploratory data analysis |
+| `src/Model_functions.py` | Model training and optimization helpers |
+| `src/Evaluation_Metrics.py` | Custom evaluation metrics and reporting |
+| `requirements.txt` | Project dependencies |
+| `README.md` | Project documentation |
 
 ---
 
