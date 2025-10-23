@@ -1,0 +1,53 @@
+import pandas as pd
+import numpy as np
+from scipy import stats
+import sklearn
+
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+from sklearn.preprocessing import StandardScaler
+from sklearn.model_selection import train_test_split, KFold, StratifiedKFold,
+StratifiedShuffleSplit, GridSearchCV, RandomizedSearchCV
+from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge, Lasso, ElasticNet,RidgeClassifier, LogisticRegressionCV
+
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import GradientBoostingRegressor, GradientBoostingClassifier, BaggingRegressor, RandomForestRegressor
+
+from sklearn import datasets, model_selection
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
+from catboost import CatBoostClassifier
+from catboost import Pool
+
+from imblearn.pipeline import Pipeline
+
+from sklearn.metrics import accuracy_score, roc_auc_score, precision_score, \
+recall_score, f1_score, log_loss, confusion_matrix, \
+    classification_report, roc_curve, auc, precision_recall_curve
+
+from sklearn.model_selection import train_test_split, KFold, StratifiedKFold, \
+StratifiedShuffleSplit, GridSearchCV, RandomizedSearchCV
+
+from sklearn.linear_model import LinearRegression, LogisticRegression, Ridge, Lasso, ElasticNet,
+RidgeClassifier, LogisticRegressionCV
+
+from sklearn.base import BaseEstimator, ClassifierMixin, clone
+
+!pip install optuna
+
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+from scipy import stats
+
+!pip install lifelines
+
+%pip install imbalanced-learn
+import imblearn
+from imblearn.over_sampling import SMOTE
+
+import warnings
+warnings.filterwarnings("ignore");
+
+RAND = 10
